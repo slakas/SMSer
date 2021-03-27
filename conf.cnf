@@ -1,0 +1,16 @@
+[security]
+token = Basic 00000000aaaaaaa
+
+[logger]
+LOGLEVEL = INFO
+LOGFILE = logs/SMSer.log
+
+[syslog]
+remote_srv = 10.10.10.10
+port = 514
+
+[group1]
+nr0 = 111-222-333
+
+[group2]
+nr0 = 111-222-333
